@@ -1,0 +1,10 @@
+@media(max-width:768px){
+
+  .glass-card{
+    width:90%;
+  }
+
+  .dashboard-grid{
+    grid-template-columns:1fr;
+  }
+}
