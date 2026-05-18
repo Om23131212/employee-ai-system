@@ -24,7 +24,7 @@ function AIRecommendation() {
     try {
 
       const { data } = await axios.get(
-        "http://localhost:5000/api/employees",
+        "https://employee-ai-backend-suis.onrender.com/api/employees",
 
         {
           headers: {
@@ -104,7 +104,7 @@ Experience: ${emp.experience} Years
       }
 
       const { data } = await axios.post(
-        "http://localhost:5000/api/ai/recommend",
+        "https://employee-ai-backend-suis.onrender.com/api/ai/recommend",
 
         employee
       );

@@ -29,7 +29,7 @@ function Login() {
       setLoading(true);
 
       const { data } = await axios.post(
-        "http://localhost:5000/api/auth/login",
+        "https://employee-ai-backend-suis.onrender.com/api/auth/login",
         {
           email,
           password

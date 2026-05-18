@@ -18,7 +18,7 @@ function EmployeeList() {
 
       const { data } =
       await axios.get(
-        "http://localhost:5000/api/employees",
+        "https://employee-ai-backend-suis.onrender.com/api/employees",
 
         {
           headers: {
@@ -43,7 +43,7 @@ function EmployeeList() {
     try {
 
       await axios.delete(
-        `http://localhost:5000/api/employees/${id}`,
+        `https://employee-ai-backend-suis.onrender.com/api/employees/${id}`,
 
         {
           headers: {
