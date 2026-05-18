@@ -1,3 +1,11 @@
+const authRoutes =
+require("./routes/authRoutes");
+
+const employeeRoutes =
+require("./routes/employeeRoutes");
+
+const aiRoutes =
+require("./routes/aiRoutes");
 const express = require("express");
 const dotenv = require("dotenv");
 const cors = require("cors");
